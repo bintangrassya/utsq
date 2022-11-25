@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER FORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://fontawesome.com/icons/categories/food-beverage">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="order" id="order">
+        <h1 class="heading">My<span> Order</span></h1>
+        <div class="row">
+            <form action="" data-aos="fade-right">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="password" placeholder="password" class="box">
+                <input type="number" placeholder="phone number" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="address"></textarea>
+                <input type="submit" value="submit" class="btn">
+            </form>
+            <div class="image" data-aos="fade-left">
+                <img src="img/chef.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>contact info</h3>
+            <p><i class="fa-solid fa-map-location-dot"></i> East Java, Indonesia</p>
+            <p><i class="fa-regular fa-envelope"></i> ahakitchen@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> (+62)888-000-1234</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">Surabaya</a>
+            <a href="#">Sidoarjo</a>
+            <a href="#">Malang</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.instagram.com/nensstuff"><i class="fa-brands fa-instagram"></i> ahakitchen.id</a>
+            <a href="#"><i class="fa-brands fa-facebook"></i> Aha kitchen</a>
+            <a href="#"><i class="fa-brands fa-twitter"></i> ahakitchen.id</a>
+        </div>
+    </div>
+
+    <h1 class="credit">create by<a href="#"> Anindyaha.</a> 1204200215</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- aos js cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- jquery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+<!-- initializing aos -->
+<script>
+    AOS.init({
+        delay: 400,
+        duration: 1000
+    })
+</script>
+</body>
+</html>
