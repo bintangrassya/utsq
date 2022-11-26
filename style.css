@@ -172,7 +172,7 @@ header #menu-bar{
     font-style: italic;
 }
 .menu{
-    background: url(../utsq/img/bgmenu.JPG) no-repeat;
+    background: url(./img/bgmenu.JPG) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
