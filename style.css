@@ -279,7 +279,7 @@ header #menu-bar{
     top: 0;
 }
 .order{
-    background: url(../utsq/img/bgmenu.JPG);
+    background: url(./img/bgmenu.JPG);
     background-size: cover;
     background-position: center;
 }
