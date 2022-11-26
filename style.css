@@ -279,7 +279,7 @@ header #menu-bar{
     top: 0;
 }
 .order{
-    background: url(https://raw.githubusercontent.com/bintangrassya/utsq/main/img/bgmenu.JPG);
+    background: url(./img/bgmenu.jpg);
     background-size: cover;
     background-position: center;
 }
